@@ -9,6 +9,15 @@ Requires the Pdfminer.six_ library. Should work on 3.6+.
 .. _Pdfminer.six: https://github.com/pdfminer/pdfminer.six
 
 
+Install
+=======
+
+Install from github::
+
+   $ python3 -m venv .env # create a virtualenv
+   $ .env/bin/pip install git+https://github.com/millefalcon/pdf2json.git@master#egg=pdf2json
+
+
 Usage
 =====
 
@@ -60,4 +69,23 @@ Write output tot a file::
        "Additional Projects": "June 2018Child Development Research● Collected data from online reports to analyze the findings to present a 15-page research paper.● Interviewed with students on campus to record over 50 responses to gain insight of their perceptions onthe developmental stages of children.● Presented a 10-minute presentation while facilitating a Q&A panel regarding research results.",
        "Skills & Interests": "Proficient with Microsoft Suite, Adobe Photoshop and Illustrator, Google PlatformsTechnical:Language:Basic Tagalog (written and verbal)Community Service with over 100+ volunteer hours, traveler to over 5 countries in Asia.Interests:"
    }  
+
+
+Develop
+=======
+
+Clone from github::
+   
+   $ python3 -m venv .env # create a virtualenv
+   $ git clone https://github.com/millefalcon/pdf2json
+   $ cd pdf2json/
+   $ .env/bin/pip install -e .
+   $ .env/bin/python -m unittest pdf2json
+   ..
+   ----------------------------------------------------------------------
+   Ran 2 tests in 0.901s
+
+   OK
+
+Happy hacking!
 
