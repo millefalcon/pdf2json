@@ -27,7 +27,8 @@ General usage::
                            output file name to save JSON
 
 Convert command::
-By default, the JSON is written to stdout.
+
+   By default, the JSON is written to stdout.
 
    $ pdf2json -i data/Interview_sample_data.pdf
    dict_keys(['name', 'phone', 'email', 'address', 'Education', 'Leadership Experience', 'Professional Experience', 'Additional Projects', 'Skills & Interests'])
