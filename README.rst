@@ -4,7 +4,7 @@ A simple pdf resume to json converter.
 
 Create JSON from Resume PDF from the command line.
 
-Requires the Pdfminer.six_ library. Should work on 3.6+.
+Requires the Pdfminer.six_ library. Should work on python 3.6+.
 
 .. _Pdfminer.six: https://github.com/pdfminer/pdfminer.six
 
